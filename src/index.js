@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDom from "react-dom";
 import SeasonDisplay from "./seasonDisplay";
+import Spinner from "./Spinner";
+
 class App extends React.Component {
   state = { lat: null, errorMessage: "" };
 
@@ -17,7 +19,7 @@ class App extends React.Component {
     if (!this.state.errorMessage && this.state.lat) {
       return <SeasonDisplay lat={this.state.lat} />;
     }
-    return <div>Loading!!!</div>;
+    return <Spinner />;
   }
 }
 ReactDom.render(<App />, document.querySelector("#root"));
