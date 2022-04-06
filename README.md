@@ -1,7 +1,7 @@
-# seasons
-Created with CodeSandbox
+
 ## Seasons Application
 
+Created with CodeSandbox
 This project is a small application in React, meant to get the user's location and display what the weather is likely to be in the current location during the current season.   
 <br/>
 
