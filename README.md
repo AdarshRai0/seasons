@@ -28,3 +28,5 @@ To reset geolocation preferences
 1. select the `i` icon next to `localhost:3000`
 2. select the Location dropdown and choose `Ask(default)`
 3. refresh the page
+![Screenshot 2022-04-06 140542](https://user-images.githubusercontent.com/91651054/161937997-f45a131c-89c9-45cc-8ebc-88775fb5ac54.png)
+![Screenshot 2022-04-06 140423](https://user-images.githubusercontent.com/91651054/161938042-41e9d14f-8fac-4a22-ba19-f7913571ec45.png)
